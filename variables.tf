@@ -19,8 +19,6 @@ variable "components" {
     default = {
         frontend  = "frontend",
         mongodb   = "mongodb",
-        catalogue = "catalogue",
-        redis     = "redis"
-        payment   = "payment"
+        catalogue = "catalogue"
     }
 }
