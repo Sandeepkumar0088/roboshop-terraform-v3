@@ -21,5 +21,6 @@ variable "components" {
         mongodb   = "mongodb",
         catalogue = "catalogue",
         redis     = "redis"
+        payment   = "payment"
     }
 }
