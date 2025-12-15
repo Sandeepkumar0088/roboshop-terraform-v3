@@ -17,6 +17,11 @@ variable "zone_id" {
 
 variable "components" {
     default = {
-        frontend  = "frontend"
+        frontend  = ""
+        mongodb   = ""
+        catalogue = ""
+        redis     = ""
+        user      = ""
+        cart      = ""
     }
 }
