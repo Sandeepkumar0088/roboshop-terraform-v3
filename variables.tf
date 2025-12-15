@@ -19,6 +19,6 @@ variable "components" {
     default = {
         frontend  = "frontend"
         mongodb   = "mongodb"
-        # catalogue = "catalogue"
+#       catalogue = "catalogue"
     }
 }
