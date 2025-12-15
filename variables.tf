@@ -21,7 +21,7 @@ variable "components" {
         mongodb   = ""
         catalogue = ""
 #       redis     = ""
-        user      = ""
+        #user      = ""
         cart      = ""
     }
 }
